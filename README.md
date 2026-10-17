@@ -5,7 +5,7 @@ Projet pratique du module **Fondamentaux de la gouvernance des données et de la
 > **Cas étudié :** NovaCare Logistics, entreprise française de logistique médicale présente en France, aux États-Unis et à Singapour. Elle utilise un cloud américain, une application contenant des données de santé, une IA d'analyse comportementale des patients, un CRM américain et un support informatique à Singapour. Plusieurs problèmes ont été détectés : absence d'analyse d'impact, fuite de données, transferts internationaux non documentés et hébergement médical non conforme.
 
 🎬 **Vidéo de démonstration :** [lien à ajouter](#)
-🌐 **Prototype en ligne :** (https://novacare-gouvernance-rgpd-agkepfxysrh749hglapdbt.streamlit.app/)
+🌐 **Prototype en ligne :** [Ouvrir RegRadar](https://novacare-gouvernance-rgpd-agkepfxysrh749hglapdbt.streamlit.app/)
 
 ---
 

@@ -85,8 +85,9 @@ st.dataframe(
 chart_col, note_col = st.columns([2, 1])
 with chart_col:
     st.markdown("**Alertes par niveau d'impact**")
-    counts = view["impact"].value_counts().reindex(IMPACT_ORDER, fill_value=0)
-    st.bar_chart(counts.rename("Nombre d'alertes"))
+    counts = view["impact"].astype(str).value_counts().reindex(IMPACT_ORDER, fill_value=0)
+    chart_data = pd.DataFrame({"Impact": counts.index, "Nombre d'alertes": counts.values})
+    st.bar_chart(chart_data, x="Impact", y="Nombre d'alertes")
 with note_col:
     st.markdown("**Échelle d'impact**")
     st.markdown(

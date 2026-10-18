@@ -68,7 +68,8 @@ Python · Streamlit · pandas · Excel · GitHub · Streamlit Community Cloud
 
 ## Équipe
 
-- Prénom Nom
-- Prénom Nom
-- Prénom Nom
-- Prénom Nom
+- Alexandre Houli
+- Dylan Nicolle
+- Eloi Oberrieder
+- Marouane Tika
+- Neila Sahnoun
